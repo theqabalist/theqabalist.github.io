@@ -7,6 +7,7 @@ tags:
 modified_time: '2016-03-28T11:21:39.413-05:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-733372280399904139
 blogger_orig_url: http://www.brandonkeown.com/2016/03/lambdaconf-controversy-through-integral.html
+comments: true
 ---
 
 When the LambdaConf decision first came to light, I followed a number of very lively, vitriolic, passionate responses on twitter denouncing the decision to permit Curtis Yarvin (a.k.a. Mencius Moldbug) to speak at the conference.  The conference took the [viewpoint](http://degoes.net/articles/lambdaconf-inclusion) that his contribution outweighed his beliefs, and furthermore, that his beliefs were irrelevant to the conference.  Many people who are opposed to his attendance and speaking argued that you cannot separate a person's contributions from his political beliefs, just because he is only talking about one at a specific time.
@@ -30,3 +31,30 @@ And that's where I spend a lot of my waking life, is at teal bordering on turquo
 And so that leaves us with both sides being true, but partial.  Orange conferences will focus more on individual achievement, to the potential (not guaranteed) detriment of some class of people, in this case anyone who has been a present day target of the philosophy that Yarvin perpetuates.  Green conferences will focus more on community, choosing only the people who are a part of that inclusion community to speak, at the risk (but not guarantee) of throwing the baby out with the bathwater.  There is no reconciliation or solution to this problem is what my turquoise intuition tells me, because this is exactly how these levels are *supposed* to act.  Yarvin is on the unhealthy side of orange, and I have seen some unhealthy green responses, but the gravity of both the orange and the green communities that are arguing seem to be doing exactly what they have learned to do thus far.
 
 So therefore this controversy, this discussion, as passionate and lively as it is, is *completely* necessary and appropriate between these two levels.  There is no "reconciliation" because this is how these levels relate, and it is the ties that bind, whether conflict or accord, that tie together the world in which we live.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2016/03/lambdaconf-controversy-through-integral.html";
+    var PAGE_IDENTIFIER = "lambdaconf-controversy-through-integral";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

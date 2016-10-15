@@ -7,6 +7,7 @@ tags:
 modified_time: '2015-08-24T15:14:21.971-05:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-9106956736799208753
 blogger_orig_url: http://www.brandonkeown.com/2015/08/listening-as-gift-and-skill.html
+comments: true
 ---
 
 Today I want to explore a concept that I have wanted to write about for a while.  I think it is going to be a little less structured than some of my other posts that I have written to this point, because this is still something I am exploring and experiencing in my own life.
@@ -42,3 +43,30 @@ Listen deeply.<br />
 Be present.<br />
 
 The more we give this gift to each other, the more we become as candles in the darkness, lighting the way for others to move forward for themselves.  What a great gift that is.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2015/08/listening-as-gift-and-skill.html";
+    var PAGE_IDENTIFIER = "listening-as-gift-and-skill";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

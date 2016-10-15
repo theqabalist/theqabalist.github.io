@@ -8,6 +8,7 @@ tags:
 modified_time: '2016-06-10T18:37:56.736-05:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-2968171163215631614
 blogger_orig_url: http://www.brandonkeown.com/2016/06/intentionality-and-you.html
+comments: true
 ---
 
 Intentionality.  Intention.  Intent.
@@ -51,3 +52,30 @@ but non-being is what we use.<br />
 ---------------------------------------------
 
 Do not identify with what is.  Do not identify with what is not.  The positivity and negativity of being and non being arise together.  The negativity of intentionality arises with the positivity of behavior.  The bends in the river are as much a part of the river as the water which rushes through it.  You are neither yin nor yang, but the circle which encompasses both.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2016/06/intentionality-and-you.html";
+    var PAGE_IDENTIFIER = "intentionality-and-you";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

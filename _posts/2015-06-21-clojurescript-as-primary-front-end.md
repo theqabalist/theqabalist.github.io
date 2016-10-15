@@ -7,6 +7,7 @@ tags:
 modified_time: '2015-06-21T15:02:08.259-05:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-3069671270608446506
 blogger_orig_url: http://www.brandonkeown.com/2015/06/clojurescript-as-primary-front-end.html
+comments: true
 ---
 
 <span style="color: #999999;">Note from the author: This treatise has been modified slightly from a proposal written to a former company that I worked for to generalize it.  Areas of specific technology considerations pertinent to the company this was written for will either be removed, or annotated to indicate such.</span></i>
@@ -76,3 +77,30 @@ Both of the risks presented follow the same theme that “the talent may just no
 Summary
 -------
 The benefits, comparative analyses, and risks of choosing ClojureScript for future development has been presented in this proposal.  ClojureScript provides a robust framework for the continued development of advanced web applications, providing the proper separation of concerns between maximum expressiveness and client execution considerations, while also providing the ability to develop sanely with testing and debugging processes.  It provides a plethora of linguistic features that outstrip even the most lofty considerations for the ES6/Harmony draft proposal.  ClojureScript will help build a better product, and so therefore it should be employed in future projects and workings in the front-end, and possibly the back end (as ClosureScript or Clojure proper) as the need arises.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2015/06/clojurescript-as-primary-front-end.html";
+    var PAGE_IDENTIFIER = "clojurescript-as-primary-front-end";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

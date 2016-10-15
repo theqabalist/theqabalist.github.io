@@ -7,6 +7,7 @@ tags:
 modified_time: '2016-01-22T12:26:07.897-06:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-9037757009779215322
 blogger_orig_url: http://www.brandonkeown.com/2016/01/the-interrelationship-of-object.html
+comments: true
 ---
 
 I once was a zealot of object oriented programming.  Then I was born anew into the fascinating mathematical world of functional programming.  It has been my journey in the past six or so months to reconcile the two.  I had the pleasure of conversing over email with Dr. Alan Kay to get his opinion on the matter, because as far as I can tell, he is still one of the most vociferous proponents of message passing and late binding (and why wouldn't he be?)  The following treatise will be my attempt to contextualize the two modalities so that they can be thought of as a single paradigm, and not two paradigms.
@@ -109,3 +110,30 @@ This is not to say run out and use Lisp.  The point is that Lisp is a multiparad
 If you are using a language like Haskell, you are at the somewhat forefront of mathematical formulations of communication.  Math always lags phenomena because it attempts to formally describe it.  OO systems can produce phenomena that math will not be able to describe formally for a very long time (neural networks are a good example).  This limitation is not very limiting however, in that it is possible to build a good deal of systems that are required today without emergent behaviors.  Additionally, there are some systems that are completely closed with well known constraints.  You don't want your brake system in your car or any sort of life support system to have "emergent" behavior.  You want to know, formally, that it works, and FP heavy languages can give you that.
 
 Now it's time for the old, boring, played out platitude: in computation, when things are turing equivalent, there is no "right" way, only tradeoffs.  Assess your tradeoffs and execute accordingly.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2016/01/the-interrelationship-of-object.html";
+    var PAGE_IDENTIFIER = "the-interrelationship-of-object";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

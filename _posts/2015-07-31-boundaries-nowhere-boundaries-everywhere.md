@@ -7,6 +7,7 @@ tags:
 modified_time: '2015-07-31T14:15:47.715-05:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-6915025076143835222
 blogger_orig_url: http://www.brandonkeown.com/2015/07/boundaries-nowhere-boundaries-everywhere.html
+comments: true
 ---
 
 I feel like I have learned a lot about boundaries over the past month, and I wanted to write down my thoughts about boundaries and the different types of boundaries that can be classified so that people have a better ability to talk about boundaries.  I have determined that I would classify boundaries into a least 4 types:
@@ -45,3 +46,30 @@ There is an important point to note here though, with regards to internal bounda
 A final point I would like to make is in relation to boundaries and trauma.  Many times we can have perfectly fine boundaries in several areas of our lives, but in some areas we just have absolutely no boundaries.  If you a person who has decently good boundaries in multiple areas of your life, but you cannot figure out why in one particular area you have no boundaries, and you define yourself in terms of another person, or you are constantly meddling in others' affairs, you most likely have a root trauma around that.  Root traumas have a very nasty ability to draw parts of ourselves outside of boundaries and keep that part of us completely exposed, and due to the absolute, excruciating pain of relocating the trauma (i.e. reowning it, reintegrating it), it stays exposed and outside of our otherwise perfectly good boundaries.  So if this is you, go to a counselor and process that trauma.  You will thank them later.  Much like existing with a dislocated shoulder, existing with an exposed root trauma can easily ruin your life in several ways, and it is your responsibility to go to a professional to get that shit popped back into place.
 
 To recap once again, we can have no boundaries, external boundaries, or internal boundaries.  Both types of boundaries are important, but internal boundaries seem to be a refinement of external boundaries and allow us to adapt much more fluidly and provide compassion to those we love over external boundaries.  In all cases we can practice positive or negative boundaries, where we either build up or tear down boundaries respectively.  Practicing positive boundaries honors the intrinsic, growing, vulnerable human in all of us.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2015/07/boundaries-nowhere-boundaries-everywhere.html";
+    var PAGE_IDENTIFIER = "boundaries-nowhere-boundaries-everywhere";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

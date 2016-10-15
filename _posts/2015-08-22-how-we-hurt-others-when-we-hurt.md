@@ -7,6 +7,7 @@ tags:
 modified_time: '2015-08-22T12:33:58.633-05:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-1651081262816151825
 blogger_orig_url: http://www.brandonkeown.com/2015/08/how-we-hurt-others-when-we-hurt.html
+comments: true
 ---
 
 Something dawned on me today.  It came into stark clarity in a way that I have never actually realized before.  Put simply: violence spreads.  Trauma does not affect just the direct parties, but spreads as a wound through a larger community.  While I don't think this is particularly noteworthy, my realization was that this violence can be self-directed, and can harmfully spread to a larger community, namely our loved ones.
@@ -30,3 +31,30 @@ Therefore it is our duty, and our responsibility, to the people that we love, th
 When we do not take responsibility for these behaviors, it can have devastating effects.  Much in the same way that a child is undefended against watching his parents abuse each other, the constant exposure to another's internal violence will chip away at our walls, calling out the savior in each of us, that higher person who loves and cares.  This is extremely dangerous and compromising situation.  It can easily lead to the person who is trying to help being attacked themselves for helping insufficiently, or for not knowing how to help properly.
 
 I cannot stress this point enough.  Violence spreads.  Trauma spreads.  This means that the longer you are internally violent and display this to the people who love you, the more you will draw them into the violence, and the closer you will get to being violent with them.  If we wish to not hurt those we love, we must first and foremost stop hurting ourselves, and if we cannot do that immediately, we must cease sharing the violence against ourselves with them, and find help.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2015/08/how-we-hurt-others-when-we-hurt.html";
+    var PAGE_IDENTIFIER = "how-we-hurt-others-when-we-hurt";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

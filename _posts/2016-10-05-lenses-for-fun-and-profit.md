@@ -7,6 +7,7 @@ tags:
 modified_time: '2016-10-06T08:14:35.307-05:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-6669772652598326233
 blogger_orig_url: http://www.brandonkeown.com/2016/10/lenses-for-fun-and-profit.html
+comments: true
 ---
 
 So it occurred to me today, as I was explaining an example of how to use [Ramda Lenses](http://ramdajs.com/docs/#lens) that the value that lenses provide is something that is simple, but not so immediately obvious. A lot of people do not understand why you would use lenses in a business application, and I have had trouble explaining why you might want to in my own dealings with other coworkers, over something like plain addressing or encapsulation in an object.
@@ -129,3 +130,30 @@ Additionally, if you'll notice, the lenses were built piecemeal and then compose
 To revisit -- lenses abstract data addressing, access, and modification in a uniform (non-idiosyncratic or boilerplate) way providing uniform consumer code and the ability to change the underlying structure without modifying consumer code, without the headache or boilerplate of classes.
 
 <a href="http://jsbin.com/nolitajaki/edit?html,js,console" target="_blank">All functioning code in JSBin</a>
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2016/10/lenses-for-fun-and-profit.html";
+    var PAGE_IDENTIFIER = "lenses-for-fun-and-profit";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

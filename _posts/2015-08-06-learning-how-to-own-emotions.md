@@ -7,6 +7,7 @@ tags:
 modified_time: '2015-08-06T11:03:55.974-05:00'
 blogger_id: tag:blogger.com,1999:blog-6424479588103664299.post-6113443627413806596
 blogger_orig_url: http://www.brandonkeown.com/2015/08/learning-how-to-own-emotions.html
+comments: true
 ---
 
 I would like to discuss in the post one of the tools that I have refined (I hesitate to say <i>developed</i> simply because it has been influenced by so many sources, and looks like other things that I do not want to claim originality for it) for my usage in times of stress.  Basically this process is helpful for formalizing some steps that can be taken when dealing with intensely stressful situations over which we have control of our person, for people who struggle with their relationship to their emotions.
@@ -97,3 +98,30 @@ I realize looking back on this that the formalization of the process that it is 
 Additionally, it has come to my attention, that there is a second class of people who don't only disown traditionally "negative" emotions, but instead or in addition, disown "positive" emotions such as happiness.  I don't have a lot of intimate experience with this concept of a "golden shadow," so I am not sure if the process I have outlined above would be able to apply to it.  But emotions are emotions, and I imagine suppressing either a "positive" or "negative" emotion would create the same sort of nagging feeling internally, and giving yourself a chance to experience the emotion, whether happiness or sadness, would allow you to live a more holistic life regardless.  So like I said, because I cannot speak with authority on that particular experience, I cannot necessarily recommend what I do for it, but if you experience that, and you want to try it, feel free to let me know how it goes.
 
 I have found that this is a truly profound therapeutic process for me.  I hope it can be or inspire a similar therapeutic process in you as well.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    var PAGE_URL = "http://www.brandonkeown.com/2015/08/learning-how-to-own-emotions.html";
+    var PAGE_IDENTIFIER = "learning-how-to-own-emotions";
+
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//theqabalist.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
