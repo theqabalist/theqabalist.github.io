@@ -32,7 +32,7 @@ This leads to a categorically Marxist dissonance concerning working to produce s
 
 This is how you stop over engineering.  You socialize and build consensus between business aesthetics and values with the people who are responsible for delivering on those aesthetics.  Because, at least for me, if I can see the joy of someone using my horrendously buggy software, I will be more concerned with continuing to deliver them value than I will be with its performance, its relative correctness, its code beauty, or any other artificial metrics that I use to measure the cost of my soul that I spent to create it.
 
-Over engineering is definable in relativistic terms.  The culture of over engineering condenses from the a culture of toxic capitalistic separation of values.  The solution isn't necessarily a Marxist revolution, but a simple humanistic evolution that realizes that producers of software are human, and have human contributions.  When they see the value of their contributions, they will stop inventing artificial metrics that cause local optima and detract from the throughput of the system as a whole.
+Over engineering is definable in relativistic terms.  The culture of over engineering condenses from a culture of toxic capitalistic separation of values.  The solution isn't necessarily a Marxist revolution, but a simple humanistic evolution that realizes that producers of software are human, and have human contributions.  When they see the value of their contributions, they will stop inventing artificial metrics that cause local optima and detract from the throughput of the system as a whole.
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
