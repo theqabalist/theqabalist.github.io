@@ -41,8 +41,8 @@ Over engineering is definable in relativistic terms.  The culture of over engine
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
      */
-    var PAGE_URL = "http://www.brandonkeown.com/2016/10/lenses-for-fun-and-profit.html";
-    var PAGE_IDENTIFIER = "lenses-for-fun-and-profit";
+    var PAGE_URL = "http://www.brandonkeown.com/2016/10/shared-individual-aesthetics.html";
+    var PAGE_IDENTIFIER = "shared-individual-aesthetics";
 
     var disqus_config = function () {
         this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
