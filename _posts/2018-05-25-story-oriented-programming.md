@@ -165,8 +165,8 @@ The human condition is narrative.  It's time to directly weave narrative into ou
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
      */
-    var PAGE_URL = "http://www.brandonkeown.com/2016/11/tarpit-critique.html";
-    var PAGE_IDENTIFIER = "tarpit-critique";
+    var PAGE_URL = "http://www.brandonkeown.com/2018/05/story-oriented-programming.html";
+    var PAGE_IDENTIFIER = "story-oriented-programming";
 
     var disqus_config = function () {
         this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
